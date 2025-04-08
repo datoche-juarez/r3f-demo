@@ -26,12 +26,20 @@ function GroundGrid() {
 }
 
 export default function ProductModel() {
-    return (
-      <div className="w-full h-full">
-        <Canvas camera={{ position: [0, 3, 8], fov: 35 }}>
-  
+  return (
+    <div className="w-full h-full">
+      <Canvas camera={{ position: [0, 3, 5], fov: 35 }}>
         <Environment preset="warehouse" />
-        <OrbitControls />
+        <OrbitControls
+          rotateSpeed={0.4}
+          zoomSpeed={0.4}
+          panSpeed={0.2}
+          autoRotate
+          autoRotateSpeed={1.5}
+          enablePan={false}
+          maxDistance={10}
+          minDistance={2}
+        />
         <GroundGrid />
         <ContactShadows
           position={[0, -1.2, 0]}

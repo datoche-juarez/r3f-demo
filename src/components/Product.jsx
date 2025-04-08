@@ -11,7 +11,7 @@ export const Product = () => {
           <div className="absolute inset-0">
             <ProductModel />
             <p className="absolute z-10 text-sm text-gray-500 transform -translate-x-1/2 border border-green-500 bottom-2 left-1/2">
-              Click & drag to rotate
+              Click & drag to rotate • Scroll to zoom
             </p>
           </div>
         </div>

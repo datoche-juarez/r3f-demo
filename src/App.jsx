@@ -4,7 +4,7 @@ export default function App() {
   return (
     <div className="flex flex-col min-h-screen">
       <header className="flex items-center justify-center text-sm text-white bg-blue-700 min-h-14 h-14">
-        Demo Nav Bar
+        3D Product Demo
       </header>
 
       {/* Main Content */}
