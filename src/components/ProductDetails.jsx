@@ -11,7 +11,7 @@ export default function ProductDetails() {
       </p>
       <p className="mb-4 text-xl font-semibold text-black-600">$229.99</p>
       <button className="px-6 py-2 text-white transition rounded bg-primary hover:shadow-lg hover:bg-primary-hover focus:ring-2 focus:ring-offset-2 focus:ring-primary">
-        Add to Quote
+        Add to Cart
       </button>
     </div>
   );
