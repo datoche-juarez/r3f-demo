@@ -40,7 +40,7 @@ export default function ProductModel() {
           maxDistance={10}
           minDistance={2}
         />
-        <GroundGrid />
+        {/* <GroundGrid /> */}
         <ContactShadows
           position={[0, -1.2, 0]}
           opacity={0.4}
