@@ -8,8 +8,8 @@ export default function App() {
       </header>
 
       {/* Main Content */}
-      <main className="flex-1 border-4 border-green-500 lg:flex lg:items-center lg:justify-center">
-        <div className="w-full p-4 border-4 border-blue-500">
+      <main className="flex-1 border-4 border-green-500 md:flex md:items-center md:justify-center">
+        <div className="w-full max-w-screen-xl p-4 mx-auto border-4 border-blue-500">
           <Product />
         </div>
       </main>
