@@ -3,7 +3,7 @@ import ProductDetails from "./ProductDetails";
 
 export const Product = () => {
   return (
-    <div className="flex flex-col w-full h-full border-4 border-red-500 lg:flex-row">
+    <div className="flex flex-col w-full h-full gap-4 border-4 border-red-500 lg:flex-row">
       {/* Left: 3D Model Viewer */}
       <div className="relative w-full border-4 border-purple-500 lg:w-1/2">
         {/* Aspect ratio wrapper for mobile */}
@@ -19,7 +19,6 @@ export const Product = () => {
 
       {/* Right: Product Info */}
       <div className="flex items-center justify-center w-full p-8 border-4 border-green-600 lg:w-1/2 lg:h-full bg-gray-50">
-
         <ProductDetails />
       </div>
     </div>
