@@ -2,7 +2,7 @@ import Product from "./components/Product";
 
 export default function App() {
   return (
-    <div className="flex flex-col min-h-screen bg-soft-bg">
+    <div className="flex flex-col min-h-screen bg-soft-bg min-w-[320px]">
       <header className="flex items-center justify-center text-sm font-bold text-white bg-dark-nav min-h-14 h-14">
         3D Product Demo
       </header>
