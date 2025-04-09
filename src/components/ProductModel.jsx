@@ -35,7 +35,7 @@ export default function ProductModel() {
           zoomSpeed={0.4}
           panSpeed={0.2}
           autoRotate
-          autoRotateSpeed={1.5}
+          autoRotateSpeed={-1.5}
           enablePan={false}
           maxDistance={10}
           minDistance={2}
